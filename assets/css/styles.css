@@ -23,7 +23,25 @@ body {
 	margin: 10% 4rem 0 4rem;
 }
 
+div {
+	transition-property: transform;
+	transition-duration: .5s;
+}
+
+
 .last {
 	padding-bottom: 2rem;
 	border-bottom: 2px solid rgb(220, 200, 180);
 }
+
+/* added styles for basisc animation w/ transition
+.red-glow {
+	transition: all .5s; 
+}
+
+.red-glow:hover {
+	color: red;
+	transform: scale(1.5) rotate(45deg);
+	text-shadow: 0 0 15px red;
+}
+	*/
