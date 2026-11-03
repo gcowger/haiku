@@ -7,11 +7,10 @@ html {
 body {
 	margin: 1rem;
 	background-color: black;
-	background-image: url(../img/flames.gif);
-	background-repeat: no-repeat;
+	background-image: url(../img/pingly.gif);
 	background-position: center;
 	background-size: cover;
-	color: white;
+	color: rgb(236, 238, 242);
 	font-size: 5rem;
 	overflow: hidden;
 }
@@ -19,19 +18,27 @@ body {
 .grid-container {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-	gap: 2rem;
-	margin: 10% 4rem 0 4rem;
+	gap: 1.5rem;
+	margin: 5% 4rem 0 4rem;
 }
 
 div {
 	transition-property: transform;
 	transition-duration: .5s;
+	font-family: "Unkempt", cursive;
+ 	font-weight: 400;
+ 	font-style: normal;
+	text-shadow: 5px 5px 5px rgb(67, 77, 91);
 }
 
 
 .last {
-	padding-bottom: 2rem;
-	border-bottom: 2px solid rgb(220, 200, 180);
+	padding-bottom: 1rem;
+	border-bottom: 2px solid rgb(227, 222, 217);
+	font-family: "Unkempt", cursive;
+ 	font-weight: 700;
+  	font-style: normal;
+	text-shadow: 5px 5px 5px rgb(61, 69, 82);
 }
 
 /* added styles for basisc animation w/ transition
